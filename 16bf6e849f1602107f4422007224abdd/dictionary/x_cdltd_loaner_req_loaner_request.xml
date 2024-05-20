@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0332fa889f1602107f4422007224ab9a" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_req_loaner_request" type="collection">
         <element label="My Column" max_length="40" name="my_column" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Skills" max_length="40" name="u_skills" type="string">
+            <choice>
+                <element inactive_on_update="false" label="HTML" sequence="0" value="html"/>
+                <element inactive_on_update="false" label="JavaScript" sequence="1" value="javascript"/>
+                <element inactive_on_update="false" label="CSS" sequence="2" value="css"/>
+            </choice>
+        </element>
     </element>
 </database>
