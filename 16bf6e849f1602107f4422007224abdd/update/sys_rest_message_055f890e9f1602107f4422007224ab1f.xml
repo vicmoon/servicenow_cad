@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>import { HolidayAPI } from 'holidayapi';&#13;
+const key = 'a7d6f900-0ceb-462a-9bb8-855816d63554'&#13;
+const holidayApi = new HolidayAPI({ key });&#13;
+holidayApi.workday({&#13;
+  country: 'CZ',&#13;
+  start: '2023-05-22',&#13;
+  days: '7',&#13;
+});</description>
+        <name>Testing_Holidays</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://holidayapi.com/v1/holidays</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 11:47:25</sys_created_on>
+        <sys_id>055f890e9f1602107f4422007224ab1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing_Holidays</sys_name>
+        <sys_package display_value="Loaner Request " source="x_cdltd_loaner_req">16bf6e849f1602107f4422007224abdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request ">16bf6e849f1602107f4422007224abdd</sys_scope>
+        <sys_update_name>sys_rest_message_055f890e9f1602107f4422007224ab1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 11:47:25</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
